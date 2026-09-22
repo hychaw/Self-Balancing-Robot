@@ -10,7 +10,9 @@ The [final integrated firmware](firmware/main/main.ino) is preserved from the im
 
 ## Demo
 
-[Watch the project demo on Google Drive](https://drive.google.com/file/d/10kR3wKRSBtR5NIh_Rh7N2LqhAMU-llGo/view?usp=drive_link)
+▶ **[Watch the Final Project Demonstration](https://drive.google.com/file/d/10kR3wKRSBtR5NIh_Rh7N2LqhAMU-llGo/view?usp=drive_link)**
+
+The demo shows the completed robot performing upright balancing, BLE-controlled forward and backward movement, controlled turning, and ramp testing.
 
 ## Documentation
 
