@@ -4,7 +4,7 @@ A two-wheeled inverted-pendulum robot built for UBC ELEC 391. An Arduino Nano 33
 
 <img src="docs/images/robot-main.jpg" alt="Completed two-wheeled balancing robot, viewed at an angle" width="480">
 
-The [final integrated firmware](firmware/main/main.ino) is preserved from the implementation used during project development and the final demonstration. This repository does not retroactively change the submitted control implementation.
+The [final integrated firmware](firmware/main/main.ino) is preserved as used during the project's final development and demonstration.
 
 **Technologies:** Arduino / C++ / embedded systems / PID control / BLE / IMU sensor fusion / encoders
 
@@ -56,7 +56,7 @@ The Android phone is the **BLE central** and the Nano is the **BLE peripheral**.
 | Two-wheel differential-drive chassis | Supports the inverted-pendulum body and turning by differential motor output |
 | Onboard battery pack | Powers the mobile robot |
 
-The verified firmware pin map and electrical notes are in [Hardware](docs/hardware.md).
+Detailed pin assignments and electrical notes are available in [Hardware](docs/hardware.md).
 
 The side view shows the wheel, chassis height, and component mounting. The top view shows the Nano, motor drivers, and wiring layout.
 
@@ -66,7 +66,9 @@ The side view shows the wheel, chassis height, and component mounting. The top v
 
 ## Results and scope
 
-**Demonstrated in the final project report:** upright balancing, forward/backward movement, controlled turning, and response to BLE remote commands. The report describes ramp traversal **testing** and separate ramp-specific tuning. It does not establish a repeatable completion result for every incline, so the 15° sketch is presented as an experimental variant, not proof of a completed 15° climb. No reliability rate or disturbance-recovery metric is claimed here.
+The completed robot demonstrated upright balancing, forward and backward movement, controlled turning, and BLE remote control. Ramp traversal was also tested using separately tuned 5°, 10°, and 15° variants.
+
+The ramp-specific sketches are included to document the team's experimental tuning process. They should not be interpreted as evidence of repeatable performance at every tested incline.
 
 ## Engineering challenges
 
@@ -106,7 +108,7 @@ The firmware contains experimentally tuned values for the original hardware. Com
 
 ## Future improvements
 
-The report identifies closed-loop synchronization of left/right wheel speeds, more robust stationary detection for heading-gyro calibration, a unified or adaptive ramp controller, and automatic calibration of empirically tuned constants as next steps.
+Potential improvements include closed-loop synchronization of the left and right wheel speeds, more robust heading-gyro calibration, a unified or adaptive ramp controller, and automatic calibration of empirically tuned constants such as motor deadband and gyro offset.
 
 ## Team and credits
 
