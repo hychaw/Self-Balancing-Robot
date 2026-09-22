@@ -1,0 +1,13 @@
+# Local source material, report, and demo media
+/reference/
+*.mp4
+
+# Arduino build output and editor files
+build/
+*.elf
+*.hex
+*.bin
+.vscode/
+
+# Local scratch files
+*.tmp.txt
