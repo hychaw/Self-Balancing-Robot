@@ -12,6 +12,10 @@ The [final integrated firmware](firmware/main/main.ino) is preserved from the im
 
 [Watch the project demo on Google Drive](https://drive.google.com/file/d/10kR3wKRSBtR5NIh_Rh7N2LqhAMU-llGo/view?usp=drive_link) (access depends on the file's sharing settings).
 
+## Documentation
+
+- [Final Project Report](docs/Self-Balancing%20Robot%20Report.pdf) — Full ELEC 391 design, implementation, testing, and analysis report.
+
 ## Key features
 
 - Upright balancing with a complementary-filter angle estimate and inner angle PID loop.
@@ -78,6 +82,7 @@ firmware/
   ramp_variants/ramp_10deg/ramp_10deg.ino 10° ramp-test variant
   ramp_variants/ramp_15deg/ramp_15deg.ino 15° ramp-test variant
 docs/
+  Self-Balancing Robot Report.pdf         Full project report
   control-system.md                       Control architecture and verified values
   hardware.md                             Components and firmware pin map
   images/robot-main.jpg                   Main project photo
