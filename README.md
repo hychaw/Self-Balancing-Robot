@@ -10,7 +10,7 @@ The [final integrated firmware](firmware/main/main.ino) is preserved from the im
 
 ## Demo
 
-[Watch the project demo on Google Drive](https://drive.google.com/file/d/10kR3wKRSBtR5NIh_Rh7N2LqhAMU-llGo/view?usp=drive_link) (access depends on the file's sharing settings).
+[Watch the project demo on Google Drive](https://drive.google.com/file/d/10kR3wKRSBtR5NIh_Rh7N2LqhAMU-llGo/view?usp=drive_link)
 
 ## Documentation
 
